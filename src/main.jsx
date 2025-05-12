@@ -8,7 +8,7 @@ import Nonprofits from './pages/nonprofits';
 import Projects from './pages/projects';
 import Students from './pages/students';
 import Team from './pages/team';
-import TabBar from './components/tabbar'; // We'll create this component next
+import TabBar from './components/tabbar';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
