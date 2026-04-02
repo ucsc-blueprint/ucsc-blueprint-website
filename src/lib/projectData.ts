@@ -7,6 +7,18 @@ export const projects: Array<{
     year: Array<number>;
 }> = [
     {
+        title: "Environteers",
+        description: "",
+        imageSrc: "",
+        year: [2025, 2026],
+    },
+    {
+        title: "United Way",
+        description: "",
+        imageSrc: "",
+        year: [2025, 2026],
+    },
+    {
         title: "Mind Body Awareness",
         description: "A curriculum platform that allows teachers to share meditative techniques and transform at-risk communities through mindfulness-based mental health content.",
         imageSrc: "projects/mba.svg",
