@@ -6,33 +6,49 @@ export interface TeamMember {
 export const leadership: TeamMember[] = [
   { name: "Vanessa-Huynh", role: "President" },
   { name: "Jake-Poblete", role: "Internal VP" },
-
+  { name: "Anna-Zhang", role: "External VP" },
   { name: "Anirudh-Krishna", role: "VP of Technology" },
-  { name: "Sathya-Seelam", role: "VP of Operations" },
+  { name: "Veronica-Vasquez-Hernandez", role: "VP of Design" },
+  { name: "Avni-Ghandi", role: "VP of Projects" },
+  { name: "Sathya-Seelam", role: "Internal Executive" },
+  { name: "Sarayu-Kocharlakota", role: "Internal Executive" },
   { name: "Erika-Wu", role: "Internal Executive" },
   { name: "Daniel-Gonzalez", role: "Project Lead" },
   { name: "Ayush-Manocha", role: "Project Lead" },
-  { name: "Avni-Ghandi", role: "VP of Projects" },
+  { name: "Ananya-Kunjal", role: "Design Lead" },
+  { name: "Sindhura-Appiah", role: "Design Lead" },
 ];
 
 export const designers: TeamMember[] = [
-  { name: "Ananya-Kunjal" },
-
-  { name: "Sindhura-Appiah" },
-  { name: "Veronica-Vasquez-Hernandez" },
+  { name: "Audrey-Ostrom" },
+  { name: "Angela-Chen" },
+  { name: "Varia-Kniazhevich" },
+  { name: "Alexis-Escuadro" },
+  { name: "Hanne-Manning" },
+  { name: "Ella-Blue-Wilmot" },
 ];
 
 export const developers: TeamMember[] = [
-
-  { name: "Brenda-Aceves" },
-  { name: "Malco-Salcedo" },
-  { name: "Michelle-Wan" },
-  { name: "Nathan-Dong" },
+  { name: "Vibha-Jallu" },
+  { name: "Yohann-Moraes" },
   { name: "Sanjana-Manikandan" },
+  { name: "Michelle-Wan" },
+  { name: "Nick-Tran" },
+  { name: "Nikolas-Peralta" },
+  { name: "Adam-Carter" },
+  { name: "Dhaathri-Vijay" },
+  { name: "Brenda-Aceves" },
+  { name: "Michael-Ramirez" },
+  { name: "Malco-Salcedo" },
+  { name: "Nathan-Dong" },
+  { name: "Raghul-Madras" },
+  { name: "Devarsh-Krishnan-Jayakrishnan" },
+  { name: "Sam-Kumar" },
+  { name: "Emely-Pineda" },
+  { name: "Vishruth-Gudipati" },
 ];
 
 export const alumni: TeamMember[] = [
-  { name: "Hanne-Manning", role: "Designer" },
   { name: "Neel-Walse", role: "VP of Design" },
   { name: "Harshita-Bhardwaj", role: "Co-President" },
   { name: "Nipun-Batra", role: "VP of Technology" },
@@ -66,7 +82,6 @@ export const alumni: TeamMember[] = [
   { name: "Aaron-Le", role: "Project Lead" },
   { name: "Akshitha-Nagaraj", role: "Developer" },
   { name: "Anthony-Furman", role: "Developer" },
-  { name: "Audrey-Ostrom", role: "Developer" },
   { name: "Benthan-Vu", role: "Developer" },
   { name: "Harsh-Dadhich", role: "Technology Executive" },
   { name: "Jamie-Quinn", role: "Developer" },

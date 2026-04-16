@@ -8,7 +8,7 @@ export const projects: Array<{
 }> = [
     {
         title: "Environteers",
-        description: "",
+        description: "An engagement platform empowering Santa Cruz County residents to take environmental action through volunteer opportunities, petitions, and news campaigns while providing analytics to track community impact.",
         imageSrc: "",
         year: [2025, 2026],
     },

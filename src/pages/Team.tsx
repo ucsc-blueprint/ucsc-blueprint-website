@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import { leadership, designers, developers, alumni } from '@/lib/teamData';
+import { destinationLogos } from '@/lib/destinationData';
 import Carousel from '@/components/Carousel';
 
 interface TeamMemberProps {
@@ -21,7 +22,7 @@ const TeamMember = ({ name, role, category }: TeamMemberProps) => {
           alt={displayName} 
           className="w-full h-full object-cover" 
           onError={(e) => {
-            (e.target as HTMLImageElement).src = "src/assets/photos/members/headshotDefault.svg";
+            (e.target as HTMLImageElement).src = "/assets/photos/members/headshotDefault.svg";
           }}
         />
       </div>
@@ -107,7 +108,24 @@ const Team = () => {
       </Carousel>
       </div>
       </section>
-      
+
+      {/* <section className="py-16 px-6 bg-gray-50">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4 font-raleway">Where Our Members End Up</h2>
+          <p className="text-gray-600 mb-12 font-karla">Companies and organizations our members have joined.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-items-center">
+            {Object.values(destinationLogos).map((src, idx) => (
+              <img
+                key={idx}
+                src={src as string}
+                alt={`Company ${idx + 1}`}
+                className="h-16 w-auto object-contain"
+              />
+            ))}
+          </div>
+        </div>
+      </section> */}
+
     </div>
   );
 };
