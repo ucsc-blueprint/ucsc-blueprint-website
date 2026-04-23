@@ -26,6 +26,7 @@ export const designers: TeamMember[] = [
   { name: "Alexis-Escuadro" },
   { name: "Hanne-Manning" },
   { name: "Ella-Blue-Wilmot" },
+  { name: "Kaiwen-Tang" },
 ];
 
 export const developers: TeamMember[] = [
