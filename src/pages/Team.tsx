@@ -17,10 +17,11 @@ const TeamMember = ({ name, role, category }: TeamMemberProps) => {
   return (
     <div className="flex flex-col items-center">
       <div className="mb-4 rounded-full overflow-hidden w-32 h-32 border-4 border-blueprint-original-blue">
-        <img 
-          src={imagePath} 
-          alt={displayName} 
-          className="w-full h-full object-cover" 
+        <img
+          src={imagePath}
+          alt={displayName}
+          className="w-full h-full object-cover"
+          style={name === "Sathya-Seelam" ? { objectPosition: "30% 65%" } : undefined}
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/assets/photos/members/headshotDefault.svg";
           }}
