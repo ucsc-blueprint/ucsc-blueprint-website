@@ -22,18 +22,21 @@ export const projects: Array<{
         title: "Mind Body Awareness",
         description: "A curriculum platform that allows teachers to share meditative techniques and transform at-risk communities through mindfulness-based mental health content.",
         imageSrc: "projects/mba.svg",
+        mediumLink: "https://medium.com/@ucscblueprint/case-study-mind-body-awreness-mba-project-educational-dashboard-e1cfc805a9fa",
         year: [2024, 2025],
     },
     {
         title: "Loaves and Fishes",
         description: "A volunteer management platform to help LAF organize schedules, events, and automate reminders for volunteers and staff to better serve communities in the Pajaro Valley.",
         imageSrc: "projects/laf.svg",
+        mediumLink: "https://medium.com/@ucscblueprint/case-study-pajaro-valley-loaves-and-fishes-volunteer-portal-03b89d6a4a1c",
         year: [2024, 2025],
     },
     {
         title: "Your Future is Our Business",
         description: "An assessment tool to help K-12 Students through the career exploration process with an interactive career quiz based on personal traits and preferences.",
         imageSrc: "projects/yfiob.svg",
+        mediumLink: "https://medium.com/@ucscblueprint/case-study-yfiob-career-assessment-tool-96269ffa4c88",
         year: [2023, 2024, 2025],
     },
     {
