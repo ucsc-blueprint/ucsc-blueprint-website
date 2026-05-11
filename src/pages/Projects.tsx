@@ -18,7 +18,7 @@ const Projects = () => {
       
       <section className="py-16 md:py-24 px-6">
         <div className="max-w-6xl mx-auto">
-          {/* <h2 className="text-3xl md:text-4xl font-bold mb-6 font-raleway">2025 - 2026</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 font-raleway">2025 - 2026</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
 
@@ -28,23 +28,25 @@ const Projects = () => {
                 title={project.title}
                 description={project.description}
                 imageSrc={project.imageSrc}
+                imageFit={project.imageFit}
                 mediumLink={project.mediumLink}
                 demoLink={project.demoLink}
               />
             ))}
 
-          </div> */}
+          </div>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-6 font-raleway">2024 - 2025</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
 
             {projects.filter((project) => project.year.includes(2024) && project.year.includes(2025)).map((project, index) => (
-              <ProjectCard 
+              <ProjectCard
                 key={index}
                 title={project.title}
                 description={project.description}
                 imageSrc={project.imageSrc}
+                imageFit={project.imageFit}
                 mediumLink={project.mediumLink}
                 demoLink={project.demoLink}
               />
@@ -56,11 +58,12 @@ const Projects = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {projects.filter((project) => project.year.includes(2023) && project.year.includes(2024)).map((project, index) => (
-              <ProjectCard 
+              <ProjectCard
                 key={index}
                 title={project.title}
                 description={project.description}
                 imageSrc={project.imageSrc}
+                imageFit={project.imageFit}
                 mediumLink={project.mediumLink}
                 demoLink={project.demoLink}
               />

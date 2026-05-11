@@ -6,15 +6,16 @@ interface ProjectCardProps {
   title: string;
   description: string;
   imageSrc: string;
+  imageFit?: 'cover' | 'contain';
   mediumLink?: string;
   demoLink?: string;
 }
 
-const ProjectCard = ({ title, description, imageSrc, mediumLink, demoLink }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, imageSrc, imageFit = 'cover', mediumLink, demoLink }: ProjectCardProps) => {
   return (
     <div className="flex flex-col">
-      <div className="mb-4 overflow-hidden rounded-md">
-        <img src={imageSrc} alt={title} className="w-full h-48 object-cover" />
+      <div className="mb-4 overflow-hidden rounded-md bg-gray-50">
+        <img src={imageSrc} alt={title} className={`w-full h-48 ${imageFit === 'contain' ? 'object-contain' : 'object-cover'}`} />
       </div>
       <h3 className="text-xl font-bold mb-2 font-raleway max-w-lg">{title}</h3>
       <p className="mb-4 font-karla text-gray-700 max-w-lg mx-auto">{description}</p>

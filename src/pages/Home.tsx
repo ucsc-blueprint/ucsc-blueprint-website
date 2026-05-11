@@ -187,11 +187,12 @@ const Home = () => {
             <Carousel itemsPerPage={2}>
 
             {projects.map((project, index) => (
-              <ProjectCard 
+              <ProjectCard
                 key={index}
                 title={project.title}
                 description={project.description}
                 imageSrc={project.imageSrc}
+                imageFit={project.imageFit}
                 mediumLink={project.mediumLink}
                 demoLink={project.demoLink}
               />

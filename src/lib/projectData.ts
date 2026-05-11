@@ -2,6 +2,7 @@ export const projects: Array<{
     title: string;
     description: string;
     imageSrc: string;
+    imageFit?: 'cover' | 'contain';
     mediumLink?: string;
     demoLink?: string;
     year: Array<number>;
@@ -9,13 +10,15 @@ export const projects: Array<{
     {
         title: "Environteers",
         description: "An engagement platform empowering Santa Cruz County residents to take environmental action through volunteer opportunities, petitions, and news campaigns while providing analytics to track community impact.",
-        imageSrc: "",
+        imageSrc: "projects/environteers.png",
+        imageFit: "contain",
         year: [2025, 2026],
     },
     {
         title: "United Way",
-        description: "",
-        imageSrc: "",
+        description: "A platform that allows individuals in Santa Cruz County to locate, save, and easily access nonprofit resources and services all in one place; connecting community members with the support they need.",
+        imageSrc: "projects/uw.svg",
+        imageFit: "contain",
         year: [2025, 2026],
     },
     {
